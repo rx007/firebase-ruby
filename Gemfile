@@ -4,13 +4,13 @@ source "http://rubygems.org"
 #   gem "activesupport", ">= 2.3.5"
 
 gem 'httpclient'
-gem 'json'
+gem 'json', '>= 2.3.0'
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 group :development do
-  gem 'rake'
-  gem 'rdoc'
+  gem 'rake', '>= 12.3.3'
+  gem 'rdoc', '>= 6.3.1'
   gem 'rspec'
 end
 
