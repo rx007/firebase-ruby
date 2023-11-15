@@ -15,5 +15,5 @@ group :development do
 end
 
 group :utility do
-  gem 'jeweler'
+  gem 'jeweler', '>= 2.1.1'
 end
