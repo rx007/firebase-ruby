@@ -10,10 +10,10 @@ gem 'json'
 # Include everything needed to run rake, tests, features, etc.
 group :development do
   gem 'rake'
-  gem 'rdoc'
+  gem 'rdoc', '>= 6.3.4.1'
   gem 'rspec'
 end
 
 group :utility do
-  gem 'jeweler'
+  gem 'jeweler', '>= 2.1.1'
 end
